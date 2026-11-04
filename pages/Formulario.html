@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTX 5090 Ti - Formulario de Pedido</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+<body>
+
+    <div class="cabecera-sitio">
+        <h1>PORTAL TECNOLÓGICO: HARDWARE & COMPUTACIÓN</h1>
+        <p>Arquitectura Gráfica de Vanguardia, Rendimiento e Inteligencia Artificial</p>
+    </div>
+
+    <header class="links">
+        <a href="../index.html" class="paginas">Inicio</a>
+        <a href="pag1.html" class="paginas">Especificaciones</a>
+        <a href="pag2.html" class="paginas">Enlaces</a>
+        <a href="Fotos.html" class="paginas">Galería GPUs</a>
+        <a href="Recuerdos.html" class="paginas">Accesorios en Oferta</a>
+        <a href="Formulario.html" class="paginas">Comprar Accesorios</a>
+        <a href="Contactos.html" class="paginas">Contacto</a>
+    </header>
+    <div class="contenedor">
+
+        <h2 class="titulo-principal">Formulario de Pedido de Accesorios y Recuerdos</h2>
+        <p class="parrafo" style="text-align: center;">Por favor complete los campos requeridos a continuación para registrar su solicitud de compra con precio promocional.</p>
+
+        <div class="caja-formulario">
+            <form action="#" method="get">
+
+                <div class="campo">
+                    <label for="nombre">1. Nombre y Apellidos Completos:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: edman lara " required>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">2. Correo Electrónico Institucional o Personal:</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </div>
+                <div class="campo">
+                    <label for="telefono">3. Número Telefónico de Contacto:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 71234567" required>
+                </div>
+
+                <div class="campo">
+                    <label for="producto">4. Seleccione el artículo o accesorio en oferta:</label>
+                    <select id="producto" name="producto" required>
+                        <option value="">-- Seleccione una opción de la lista --</option>
+                        <option value="polera">Polera Oficial RTX 5090 Ti ($20.00)</option>
+                        <option value="mousepad">Mousepad Profesional XXL 90x40cm ($15.00)</option>
+                        <option value="soporte">Soporte Anti-Sag de Aluminio ($12.00)</option>
+                        <option value="mouse">Mouse Óptico de Precisión 16000 DPI ($32.00)</option>
+                        <option value="auriculares">Auriculares de Audio Espacial 7.1 ($45.00)</option>
+                        <option value="smartwatch">Reloj Inteligente con Cronómetro ($35.00)</option>
+                        <option value="taza">Taza Térmica Edición RTX ($9.50)</option>
+                        <option value="llavero">Llavero Metálico GPU Escala 1:10 ($5.00)</option>
+                        <option value="stickers">Pack de 12 Stickers Holográficos ($4.50)</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="cantidad">5. Cantidad de unidades:</label>
+                    <input type="number" id="cantidad" name="cantidad" min="1" max="10" value="1" required>
+                </div>
+
+                <div class="campo">
+                    <label for="direccion">6. Dirección de Envío y Referencias de Entrega:</label>
+                    <textarea id="direccion" name="direccion" rows="3" placeholder="Ingrese su ciudad, zona, calle o indicaciones para coordinar la entrega..."></textarea>
+                </div>
+                <button type="submit" class="boton-enviar">Registrar y Confirmar Pedido</button>
+
+            </form>
+        </div>
+
+    </div>
+    <div class="pie-sitio">
+        <p><b>Práctica Segundo Parcial - HTML y CSS Básico</b> | Tema: Tarjetas Gráficas y Computadoras Modernas</p>
+        <p style="margin-top: 5px;">&copy; 2026 Desarrollado por la estudiante <b>eduardo</b> - Todos los derechos reservados</p>
+    </div>
+
+</body>
+</html>
